@@ -7,7 +7,7 @@
 This repository contains the source code for Team Encoder-Decoder's solution to the **Udhgam 2.0 ML Challenge**. The task was to predict the quality score of LLM prompts based on **obfuscated token sequences** (integers) without access to the original vocabulary or pre-trained embeddings.
 
 ## Solution Architecture
-Our winning approach uses a **CRNN-Attention Hybrid Model** trained from scratch.
+Our approach uses a **CRNN-Attention Hybrid Model** trained from scratch.
 
 ### Key Components:
 1.  **Learned Embeddings:** We train a fresh embedding layer (`dim=256`) to capture semantic relationships between obfuscated tokens.
